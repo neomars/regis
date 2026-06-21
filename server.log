@@ -1,0 +1,6 @@
+127.0.0.1 - - [20/Jun/2026 22:35:49] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2026 22:35:49] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2026 22:35:49] "GET /js/tailwind-config.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2026 22:35:49] "GET /img/hero-bg.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2026 22:35:49] "GET /js/navigation.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2026 22:35:52] "GET /hypnocoaching.html HTTP/1.1" 200 -

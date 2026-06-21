@@ -5,105 +5,8 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "surface-bright": "#f9f9ff",
-                    "background": "#f9f9ff",
-                    "on-tertiary-fixed": "#191c1d",
-                    "on-surface": "#111c2c",
-                    "secondary-fixed-dim": "#e9c176",
-                    "outline": "#75777e",
-                    "surface-container-lowest": "#ffffff",
-                    "primary-fixed-dim": "#b9c7e4",
-                    "surface-variant": "#d8e3fa",
-                    "surface-dim": "#cfdaf1",
-                    "surface-container-high": "#dee8ff",
-                    "inverse-surface": "#263142",
-                    "on-surface-variant": "#44474d",
-                    "outline-variant": "#c5c6cd",
-                    "inverse-on-surface": "#ebf1ff",
-                    "surface": "#f9f9ff",
-                    "secondary-container": "#fed488",
-                    "on-error": "#ffffff",
-                    "tertiary-fixed": "#e1e3e4",
-                    "on-secondary": "#ffffff",
-                    "primary": "#000000",
-                    "on-secondary-fixed-variant": "#5d4201",
-                    "error-container": "#ffdad6",
-                    "on-tertiary": "#ffffff",
-                    "on-secondary-container": "#785a1a",
-                    "inverse-primary": "#b9c7e4",
-                    "on-primary": "#ffffff",
-                    "surface-container-highest": "#d8e3fa",
-                    "tertiary": "#000000",
-                    "on-tertiary-container": "#828485",
-                    "surface-container-low": "#f0f3ff",
-                    "primary-fixed": "#d6e3ff",
-                    "on-primary-fixed-variant": "#39475f",
-                    "secondary": "#775a19",
-                    "on-secondary-fixed": "#261900",
-                    "on-tertiary-fixed-variant": "#454748",
-                    "on-primary-fixed": "#0d1c32",
-                    "tertiary-container": "#191c1d",
-                    "secondary-fixed": "#ffdea5",
-                    "surface-tint": "#515f78",
-                    "tertiary-fixed-dim": "#c5c7c8",
-                    "on-primary-container": "#76849f",
-                    "on-error-container": "#93000a",
-                    "primary-container": "#0d1c32",
-                    "surface-container": "#e7eeff",
-                    "error": "#ba1a1a",
-                    "on-background": "#111c2c"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
-            },
-            "spacing": {
-                    "stack-lg": "64px",
-                    "stack-sm": "16px",
-                    "margin-desktop": "80px",
-                    "gutter": "32px",
-                    "max-container": "1440px",
-                    "section-padding": "120px",
-                    "stack-md": "32px"
-            },
-            "fontFamily": {
-                    "body-lg": ["Montserrat"],
-                    "body-md": ["Montserrat"],
-                    "headline-lg": ["Montserrat"],
-                    "headline-md": ["Montserrat"],
-                    "label-lg": ["Montserrat"],
-                    "label-md": ["Montserrat"],
-                    "display-lg": ["Montserrat"]
-            },
-            "fontSize": {
-                    "body-lg": ["18px", {"lineHeight": "32px", "fontWeight": "400"}],
-                    "body-md": ["16px", {"lineHeight": "28px", "fontWeight": "400"}],
-                    "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
-                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600"}],
-                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
-                    "display-lg": ["72px", {"lineHeight": "84px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .cinematic-overlay {
-            background: linear-gradient(to right, rgba(13, 28, 50, 0.9) 0%, rgba(13, 28, 50, 0.4) 50%, rgba(13, 28, 50, 0) 100%);
-        }
-    </style>
+<script src="js/tailwind-config.js"></script>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
 <header class="fixed top-0 w-full z-50 bg-primary/95 backdrop-blur-md shadow-md h-20">
@@ -133,33 +36,45 @@
 <div class="max-w-2xl space-y-stack-md">
 <span class="inline-block px-4 py-1 bg-secondary/20 border border-secondary text-secondary font-label-lg uppercase tracking-[0.2em]">Vitalité &amp; Équilibre</span>
 <h1 class="font-display-lg text-display-lg leading-[1.1] text-white">Coaching Santé</h1>
-<p class="font-body-lg text-body-lg text-surface-variant max-w-lg">Optimisez votre capital santé pour une performance durable et une vie équilibrée.</p>
+<p class="font-body-lg text-body-lg text-surface-variant max-w-lg">Prenez soin de votre santé pour retrouver durablement énergie, vitalité et équilibre.</p>
 </div>
 </div>
 </section>
 <section class="py-section-padding bg-surface">
 <div class="max-w-max-container mx-auto px-margin-desktop">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-<div class="bg-white p-10 rounded shadow-sm border border-outline-variant/10">
-<div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary">nutrition</span>
+<div class="max-w-3xl mx-auto">
+<h2 class="font-headline-lg text-headline-lg mb-8 text-primary">Je vous accompagne dans :</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 mb-12">
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="font-body-lg">la perte de poids</span>
 </div>
-<h3 class="font-headline-md text-headline-md mb-4 text-primary">Nutrition Éclairée</h3>
-<p class="font-body-md text-on-surface-variant">Adaptez votre alimentation à votre neurotype pour stabiliser votre énergie et optimiser vos fonctions cognitives.</p>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="font-body-lg">la remise en forme</span>
 </div>
-<div class="bg-white p-10 rounded shadow-sm border border-outline-variant/10">
-<div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary">bedtime</span>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="font-body-lg">la nutrition</span>
 </div>
-<h3 class="font-headline-md text-headline-md mb-4 text-primary">Sommeil &amp; Récupération</h3>
-<p class="font-body-md text-on-surface-variant">Techniques de biohacking et rythmes circadiens pour une récupération profonde et réparatrice.</p>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="font-body-lg">l'activité physique adaptée</span>
 </div>
-<div class="bg-white p-10 rounded shadow-sm border border-outline-variant/10">
-<div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary">self_improvement</span>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="font-body-lg">la prévention santé</span>
 </div>
-<h3 class="font-headline-md text-headline-md mb-4 text-primary">Gestion du Stress</h3>
-<p class="font-body-md text-on-surface-variant">Cohérence cardiaque et outils neuro-sensoriels pour réguler votre système nerveux au quotidien.</p>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="font-body-lg">le bien-être durable</span>
+</div>
+</div>
+<div class="glass-card p-10 text-center space-y-6">
+<p class="font-headline-md text-headline-md italic">"Parce qu'une bonne santé est le premier levier de la performance."</p>
+<button class="bg-secondary text-on-primary px-10 py-4 font-label-lg uppercase tracking-widest hover:scale-105 transition-all shadow-xl">
+                            Découvrir le Coaching Santé
+                        </button>
 </div>
 </div>
 </div>
@@ -205,18 +120,5 @@
 </div>
 </div>
 </footer>
-<script>
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('header');
-            if (window.scrollY > 50) {
-                nav.classList.add('shadow-xl');
-                nav.classList.remove('bg-primary/95');
-                nav.classList.add('bg-primary');
-            } else {
-                nav.classList.remove('shadow-xl');
-                nav.classList.add('bg-primary/95');
-                nav.classList.remove('bg-primary');
-            }
-        });
-    </script>
+<script src="js/navigation.js"></script>
 </body></html>

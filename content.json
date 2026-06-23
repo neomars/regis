@@ -1,0 +1,1000 @@
+{
+  "index.html": [
+    {
+      "tag": "text",
+      "text": "Régis Quérard Coaching | Performance & Sérénité"
+    },
+    {
+      "tag": "a",
+      "text": "Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "tag": "a",
+      "text": "Hypnocoaching"
+    },
+    {
+      "tag": "a",
+      "text": "Coaching santé"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "button",
+      "text": "Prendre rendez-vous"
+    },
+    {
+      "tag": "span",
+      "text": "Excellence & Performance"
+    },
+    {
+      "tag": "h1",
+      "text": "L'ANCRAGE MALOUIN"
+    },
+    {
+      "tag": "p",
+      "text": "Inspiré par l'énergie de la Côte d'Émeraude."
+    },
+    {
+      "tag": "p",
+      "text": "Entre la puissance de la mer, la force des marées et la solidité des remparts de Saint-Malo, j'ai construit une vision du coaching fondée sur la résilience, l'engagement et l'adaptation."
+    },
+    {
+      "tag": "p",
+      "text": "Comme un navigateur qui sait composer avec les éléments, je vous accompagne pour développer des bases solides."
+    },
+    {
+      "tag": "a",
+      "text": "Découvrir la méthode"
+    },
+    {
+      "tag": "a",
+      "text": "Mon parcours"
+    },
+    {
+      "tag": "h2",
+      "text": "Sportifs de Haut Niveau"
+    },
+    {
+      "tag": "p",
+      "text": "Préparation olympique, gestion du stress et optimisation des préférences motrices pour atteindre les sommets."
+    },
+    {
+      "tag": "span",
+      "text": "En savoir plus"
+    },
+    {
+      "tag": "span",
+      "text": "arrow_forward"
+    },
+    {
+      "tag": "h2",
+      "text": "Dirigeants & Leaders"
+    },
+    {
+      "tag": "p",
+      "text": "Leadership éclairé, résilience émotionnelle et performance cognitive pour naviguer dans l'incertitude."
+    },
+    {
+      "tag": "span",
+      "text": "Optimiser mon leadership"
+    },
+    {
+      "tag": "span",
+      "text": "arrow_forward"
+    },
+    {
+      "tag": "span",
+      "text": "Une approche holistique"
+    },
+    {
+      "tag": "h2",
+      "text": "L'Architecture de la Performance"
+    },
+    {
+      "tag": "span",
+      "text": "psychology"
+    },
+    {
+      "tag": "h3",
+      "text": "Neurotypes"
+    },
+    {
+      "tag": "p",
+      "text": "Comprendre la signature chimique de votre cerveau pour adapter l'entraînement, la nutrition et la récupération à votre profil biologique unique."
+    },
+    {
+      "tag": "span",
+      "text": "Optimisation Dopaminergique"
+    },
+    {
+      "tag": "span",
+      "text": "directions_run"
+    },
+    {
+      "tag": "h3",
+      "text": "Préférences Motrices"
+    },
+    {
+      "tag": "p",
+      "text": "Identifiez vos schémas naturels de mouvement pour prévenir les blessures et libérer votre puissance instinctive."
+    },
+    {
+      "tag": "span",
+      "text": "accessibility_new"
+    },
+    {
+      "tag": "h3",
+      "text": "Posturologie"
+    },
+    {
+      "tag": "p",
+      "text": "L'équilibre des capteurs sensoriels pour une stabilité parfaite et une efficacité gestuelle maximale."
+    },
+    {
+      "tag": "h3",
+      "text": "Préparation Mentale"
+    },
+    {
+      "tag": "p",
+      "text": "Flow state, imagerie motrice et techniques de respiration pour garder le contrôle quand la pression est à son comble."
+    },
+    {
+      "tag": "a",
+      "text": "Consulter la fiche technique"
+    },
+    {
+      "tag": "span",
+      "text": "format_quote"
+    },
+    {
+      "tag": "p",
+      "text": "\"Grâce à l'approche de Régis sur les préférences motrices, j'ai non seulement optimisé mon geste technique mais j'ai surtout retrouvé une fluidité que je pensais perdue. C'est l'atout maître de ma préparation pour Paris.\""
+    },
+    {
+      "tag": "span",
+      "text": "Julien R."
+    },
+    {
+      "tag": "span",
+      "text": "Athlète Olympique - Lancer de disque"
+    },
+    {
+      "tag": "h2",
+      "text": "Prêt à franchir le prochain palier ?"
+    },
+    {
+      "tag": "p",
+      "text": "Basé à Saint-Malo et Dinard, j'interviens dans toute la France pour des séances de coaching intensif ou du consulting stratégique."
+    },
+    {
+      "tag": "span",
+      "text": "location_on"
+    },
+    {
+      "tag": "span",
+      "text": "Saint-Malo & Dinard, Côte d'Émeraude"
+    },
+    {
+      "tag": "span",
+      "text": "mail"
+    },
+    {
+      "tag": "span",
+      "text": "contact@regisquerard.com"
+    },
+    {
+      "tag": "span",
+      "text": "brand_awareness"
+    },
+    {
+      "tag": "a",
+      "text": "@RégisQuérardCoaching"
+    },
+    {
+      "tag": "label",
+      "text": "Nom"
+    },
+    {
+      "tag": "label",
+      "text": "Profil"
+    },
+    {
+      "tag": "option",
+      "text": "Sportif"
+    },
+    {
+      "tag": "option",
+      "text": "Dirigeant"
+    },
+    {
+      "tag": "option",
+      "text": "Autre"
+    },
+    {
+      "tag": "label",
+      "text": "Email"
+    },
+    {
+      "tag": "label",
+      "text": "Message"
+    },
+    {
+      "tag": "button",
+      "text": "Envoyer la demande"
+    },
+    {
+      "tag": "span",
+      "text": "send"
+    },
+    {
+      "tag": "h3",
+      "text": "RQC"
+    },
+    {
+      "tag": "p",
+      "text": "Expertise en performance humaine, neuro-cognition et motricité."
+    },
+    {
+      "tag": "h4",
+      "text": "Localités"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Saint-Malo"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Dinard"
+    },
+    {
+      "tag": "h4",
+      "text": "Navigation"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "a",
+      "text": "Témoignages"
+    },
+    {
+      "tag": "h4",
+      "text": "Légal"
+    },
+    {
+      "tag": "a",
+      "text": "Mentions Légales"
+    },
+    {
+      "tag": "a",
+      "text": "Confidentialité"
+    },
+    {
+      "tag": "a",
+      "text": "Cookies"
+    },
+    {
+      "tag": "p",
+      "text": "© 2024 Régis Quérard Coaching. Tous droits réservés."
+    },
+    {
+      "tag": "span",
+      "text": "share"
+    },
+    {
+      "tag": "span",
+      "text": "language"
+    }
+  ],
+  "hypnocoaching.html": [
+    {
+      "tag": "text",
+      "text": "Hypnocoaching | Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "tag": "a",
+      "text": "Hypnocoaching"
+    },
+    {
+      "tag": "a",
+      "text": "Coaching santé"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "button",
+      "text": "Prendre rendez-vous"
+    },
+    {
+      "tag": "span",
+      "text": "Mental & Inconscient"
+    },
+    {
+      "tag": "h1",
+      "text": "Hypnocoaching"
+    },
+    {
+      "tag": "p",
+      "text": "Alliez la puissance de l'hypnose aux stratégies de coaching pour lever vos blocages profonds."
+    },
+    {
+      "tag": "h2",
+      "text": "Pourquoi l'Hypnocoaching ?"
+    },
+    {
+      "tag": "p",
+      "text": "L'hypnocoaching est une méthode hybride qui utilise l'état d'hypnose pour accéder à vos ressources inconscientes tout en restant focalisé sur des objectifs concrets de performance ou de bien-être."
+    },
+    {
+      "tag": "span",
+      "text": "check_circle"
+    },
+    {
+      "tag": "span",
+      "text": "Gestion du stress et de l'anxiété de performance"
+    },
+    {
+      "tag": "span",
+      "text": "check_circle"
+    },
+    {
+      "tag": "span",
+      "text": "Dépassement des croyances limitantes"
+    },
+    {
+      "tag": "span",
+      "text": "check_circle"
+    },
+    {
+      "tag": "span",
+      "text": "Amélioration de la concentration et du \"Flow\""
+    },
+    {
+      "tag": "span",
+      "text": "check_circle"
+    },
+    {
+      "tag": "span",
+      "text": "Préparation mentale aux grands événements"
+    },
+    {
+      "tag": "h3",
+      "text": "Une séance type"
+    },
+    {
+      "tag": "p",
+      "text": "Chaque séance est personnalisée selon votre profil neuro-cognitif. Nous commençons par définir l'objectif, puis nous utilisons l'induction hypnotique pour travailler sur les leviers inconscients nécessaires à votre réussite."
+    },
+    {
+      "tag": "button",
+      "text": "Réserver une séance"
+    },
+    {
+      "tag": "h3",
+      "text": "RQC"
+    },
+    {
+      "tag": "p",
+      "text": "Expertise en performance humaine, neuro-cognition et motricité."
+    },
+    {
+      "tag": "h4",
+      "text": "Localités"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Saint-Malo"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Dinard"
+    },
+    {
+      "tag": "h4",
+      "text": "Navigation"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "a",
+      "text": "Témoignages"
+    },
+    {
+      "tag": "h4",
+      "text": "Légal"
+    },
+    {
+      "tag": "a",
+      "text": "Mentions Légales"
+    },
+    {
+      "tag": "a",
+      "text": "Confidentialité"
+    },
+    {
+      "tag": "a",
+      "text": "Cookies"
+    },
+    {
+      "tag": "p",
+      "text": "© 2024 Régis Quérard Coaching. Tous droits réservés."
+    },
+    {
+      "tag": "span",
+      "text": "share"
+    },
+    {
+      "tag": "span",
+      "text": "language"
+    }
+  ],
+  "coaching-sante.html": [
+    {
+      "tag": "text",
+      "text": "Coaching Santé | Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "tag": "a",
+      "text": "Hypnocoaching"
+    },
+    {
+      "tag": "a",
+      "text": "Coaching santé"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "button",
+      "text": "Prendre rendez-vous"
+    },
+    {
+      "tag": "span",
+      "text": "Vitalité & Équilibre"
+    },
+    {
+      "tag": "h1",
+      "text": "Coaching Santé"
+    },
+    {
+      "tag": "p",
+      "text": "Optimisez votre capital santé pour une performance durable et une vie équilibrée."
+    },
+    {
+      "tag": "span",
+      "text": "nutrition"
+    },
+    {
+      "tag": "h3",
+      "text": "Nutrition Éclairée"
+    },
+    {
+      "tag": "p",
+      "text": "Adaptez votre alimentation à votre neurotype pour stabiliser votre énergie et optimiser vos fonctions cognitives."
+    },
+    {
+      "tag": "span",
+      "text": "bedtime"
+    },
+    {
+      "tag": "h3",
+      "text": "Sommeil & Récupération"
+    },
+    {
+      "tag": "p",
+      "text": "Techniques de biohacking et rythmes circadiens pour une récupération profonde et réparatrice."
+    },
+    {
+      "tag": "span",
+      "text": "self_improvement"
+    },
+    {
+      "tag": "h3",
+      "text": "Gestion du Stress"
+    },
+    {
+      "tag": "p",
+      "text": "Cohérence cardiaque et outils neuro-sensoriels pour réguler votre système nerveux au quotidien."
+    },
+    {
+      "tag": "h3",
+      "text": "RQC"
+    },
+    {
+      "tag": "p",
+      "text": "Expertise en performance humaine, neuro-cognition et motricité."
+    },
+    {
+      "tag": "h4",
+      "text": "Localités"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Saint-Malo"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Dinard"
+    },
+    {
+      "tag": "h4",
+      "text": "Navigation"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "a",
+      "text": "Témoignages"
+    },
+    {
+      "tag": "h4",
+      "text": "Légal"
+    },
+    {
+      "tag": "a",
+      "text": "Mentions Légales"
+    },
+    {
+      "tag": "a",
+      "text": "Confidentialité"
+    },
+    {
+      "tag": "a",
+      "text": "Cookies"
+    },
+    {
+      "tag": "p",
+      "text": "© 2024 Régis Quérard Coaching. Tous droits réservés."
+    },
+    {
+      "tag": "span",
+      "text": "share"
+    },
+    {
+      "tag": "span",
+      "text": "language"
+    }
+  ],
+  "expertise.html": [
+    {
+      "tag": "text",
+      "text": "Expertise | Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "tag": "a",
+      "text": "Hypnocoaching"
+    },
+    {
+      "tag": "a",
+      "text": "Coaching santé"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "button",
+      "text": "Prendre rendez-vous"
+    },
+    {
+      "tag": "h1",
+      "text": "L'Expertise au service de la Performance"
+    },
+    {
+      "tag": "p",
+      "text": "Ma méthode repose sur une compréhension profonde des mécanismes biologiques, neurologiques et moteurs qui régissent l'être humain."
+    },
+    {
+      "tag": "h2",
+      "text": "Neurotypes"
+    },
+    {
+      "tag": "p",
+      "text": "Chaque individu possède un équilibre neurologique unique basé sur ses neurotransmetteurs dominants (dopamine, sérotonine, acétylcholine, GABA)."
+    },
+    {
+      "tag": "p",
+      "text": "En identifiant votre neurotype, nous pouvons adapter précisément votre volume d'entraînement, vos besoins nutritionnels et vos stratégies de récupération pour éviter le burn-out et maximiser vos résultats."
+    },
+    {
+      "tag": "span",
+      "text": "psychology"
+    },
+    {
+      "tag": "h3",
+      "text": "Optimisation Chimique"
+    },
+    {
+      "tag": "span",
+      "text": "add"
+    },
+    {
+      "tag": "text",
+      "text": "Profilage précis"
+    },
+    {
+      "tag": "span",
+      "text": "add"
+    },
+    {
+      "tag": "text",
+      "text": "Planification sur mesure"
+    },
+    {
+      "tag": "span",
+      "text": "add"
+    },
+    {
+      "tag": "text",
+      "text": "Équilibre émotionnel"
+    },
+    {
+      "tag": "span",
+      "text": "directions_run"
+    },
+    {
+      "tag": "h3",
+      "text": "Efficience Naturelle"
+    },
+    {
+      "tag": "span",
+      "text": "add"
+    },
+    {
+      "tag": "text",
+      "text": "Analyse de la marche/course"
+    },
+    {
+      "tag": "span",
+      "text": "add"
+    },
+    {
+      "tag": "text",
+      "text": "Coordination instinctive"
+    },
+    {
+      "tag": "span",
+      "text": "add"
+    },
+    {
+      "tag": "text",
+      "text": "Prévention des blessures"
+    },
+    {
+      "tag": "h2",
+      "text": "Préférences Motrices"
+    },
+    {
+      "tag": "p",
+      "text": "Votre corps a une façon naturelle de bouger. Forcer un geste technique contre votre nature est le plus court chemin vers la blessure et la contre-performance."
+    },
+    {
+      "tag": "p",
+      "text": "L'approche des préférences motrices permet de découvrir si vous êtes un \"Terrien\" ou un \"Aérien\", et comment utiliser vos chaînes musculaires dominantes pour une puissance maximale sans effort superflu."
+    },
+    {
+      "tag": "h3",
+      "text": "RQC"
+    },
+    {
+      "tag": "p",
+      "text": "Expertise en performance humaine, neuro-cognition et motricité."
+    },
+    {
+      "tag": "h4",
+      "text": "Localités"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Saint-Malo"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Dinard"
+    },
+    {
+      "tag": "h4",
+      "text": "Navigation"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "a",
+      "text": "Témoignages"
+    },
+    {
+      "tag": "h4",
+      "text": "Légal"
+    },
+    {
+      "tag": "a",
+      "text": "Mentions Légales"
+    },
+    {
+      "tag": "a",
+      "text": "Confidentialité"
+    },
+    {
+      "tag": "a",
+      "text": "Cookies"
+    },
+    {
+      "tag": "p",
+      "text": "© 2024 Régis Quérard Coaching. Tous droits réservés."
+    },
+    {
+      "tag": "span",
+      "text": "share"
+    },
+    {
+      "tag": "span",
+      "text": "language"
+    }
+  ],
+  "parcours.html": [
+    {
+      "tag": "text",
+      "text": "Mon Parcours | Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Régis Quérard Coaching"
+    },
+    {
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "tag": "a",
+      "text": "Hypnocoaching"
+    },
+    {
+      "tag": "a",
+      "text": "Coaching santé"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "button",
+      "text": "Prendre rendez-vous"
+    },
+    {
+      "tag": "span",
+      "text": "Ma Vision"
+    },
+    {
+      "tag": "h1",
+      "text": "Accompagner l'Excellence"
+    },
+    {
+      "tag": "p",
+      "text": "Passionné par le potentiel humain, j'ai consacré ma carrière à comprendre comment optimiser la performance sans sacrifier la santé."
+    },
+    {
+      "tag": "p",
+      "text": "Mon parcours m'a mené à travailler avec des athlètes olympiques, des commandos de marine et des dirigeants de grandes entreprises, m'apportant une vision holistique de la performance sous pression."
+    },
+    {
+      "tag": "h2",
+      "text": "Dates Clés"
+    },
+    {
+      "tag": "span",
+      "text": "2024"
+    },
+    {
+      "tag": "h3",
+      "text": "Préparation Olympique"
+    },
+    {
+      "tag": "p",
+      "text": "Accompagnement d'athlètes pour les Jeux de Paris 2024 en utilisant les préférences motrices et le profilage neuro-chimique."
+    },
+    {
+      "tag": "span",
+      "text": "2020"
+    },
+    {
+      "tag": "h3",
+      "text": "Expertise Neuro-Cognitive"
+    },
+    {
+      "tag": "p",
+      "text": "Certification avancée en Neurotypes et Posturologie pour affiner l'approche personnalisée du coaching."
+    },
+    {
+      "tag": "span",
+      "text": "2015"
+    },
+    {
+      "tag": "h3",
+      "text": "Fondation de RQC"
+    },
+    {
+      "tag": "p",
+      "text": "Lancement de la structure dédiée à l'accompagnement des sportifs de haut niveau et des dirigeants à Saint-Malo."
+    },
+    {
+      "tag": "h3",
+      "text": "RQC"
+    },
+    {
+      "tag": "p",
+      "text": "Expertise en performance humaine, neuro-cognition et motricité."
+    },
+    {
+      "tag": "h4",
+      "text": "Localités"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Saint-Malo"
+    },
+    {
+      "tag": "span",
+      "text": "chevron_right"
+    },
+    {
+      "tag": "text",
+      "text": "Dinard"
+    },
+    {
+      "tag": "h4",
+      "text": "Navigation"
+    },
+    {
+      "tag": "a",
+      "text": "Expertise"
+    },
+    {
+      "tag": "a",
+      "text": "Parcours"
+    },
+    {
+      "tag": "a",
+      "text": "Témoignages"
+    },
+    {
+      "tag": "h4",
+      "text": "Légal"
+    },
+    {
+      "tag": "a",
+      "text": "Mentions Légales"
+    },
+    {
+      "tag": "a",
+      "text": "Confidentialité"
+    },
+    {
+      "tag": "a",
+      "text": "Cookies"
+    },
+    {
+      "tag": "p",
+      "text": "© 2024 Régis Quérard Coaching. Tous droits réservés."
+    },
+    {
+      "tag": "span",
+      "text": "share"
+    },
+    {
+      "tag": "span",
+      "text": "language"
+    }
+  ]
+}

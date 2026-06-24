@@ -5,120 +5,18 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "surface-bright": "#f9f9ff",
-                    "background": "#f9f9ff",
-                    "on-tertiary-fixed": "#191c1d",
-                    "on-surface": "#111c2c",
-                    "secondary-fixed-dim": "#e9c176",
-                    "outline": "#75777e",
-                    "surface-container-lowest": "#ffffff",
-                    "primary-fixed-dim": "#b9c7e4",
-                    "surface-variant": "#d8e3fa",
-                    "surface-dim": "#cfdaf1",
-                    "surface-container-high": "#dee8ff",
-                    "inverse-surface": "#263142",
-                    "on-surface-variant": "#44474d",
-                    "outline-variant": "#c5c6cd",
-                    "inverse-on-surface": "#ebf1ff",
-                    "surface": "#f9f9ff",
-                    "secondary-container": "#fed488",
-                    "on-error": "#ffffff",
-                    "tertiary-fixed": "#e1e3e4",
-                    "on-secondary": "#ffffff",
-                    "primary": "#000000",
-                    "on-secondary-fixed-variant": "#5d4201",
-                    "error-container": "#ffdad6",
-                    "on-tertiary": "#ffffff",
-                    "on-secondary-container": "#785a1a",
-                    "inverse-primary": "#b9c7e4",
-                    "on-primary": "#ffffff",
-                    "surface-container-highest": "#d8e3fa",
-                    "tertiary": "#000000",
-                    "on-tertiary-container": "#828485",
-                    "surface-container-low": "#f0f3ff",
-                    "primary-fixed": "#d6e3ff",
-                    "on-primary-fixed-variant": "#39475f",
-                    "secondary": "#775a19",
-                    "on-secondary-fixed": "#261900",
-                    "on-tertiary-fixed-variant": "#454748",
-                    "on-primary-fixed": "#0d1c32",
-                    "tertiary-container": "#191c1d",
-                    "secondary-fixed": "#ffdea5",
-                    "surface-tint": "#515f78",
-                    "tertiary-fixed-dim": "#c5c7c8",
-                    "on-primary-container": "#76849f",
-                    "on-error-container": "#93000a",
-                    "primary-container": "#0d1c32",
-                    "surface-container": "#e7eeff",
-                    "error": "#ba1a1a",
-                    "on-background": "#111c2c"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
-            },
-            "spacing": {
-                    "stack-lg": "64px",
-                    "stack-sm": "16px",
-                    "margin-desktop": "80px",
-                    "gutter": "32px",
-                    "max-container": "1440px",
-                    "section-padding": "120px",
-                    "stack-md": "32px"
-            },
-            "fontFamily": {
-                    "body-lg": ["Montserrat"],
-                    "body-md": ["Montserrat"],
-                    "headline-lg": ["Montserrat"],
-                    "headline-md": ["Montserrat"],
-                    "label-lg": ["Montserrat"],
-                    "label-md": ["Montserrat"],
-                    "display-lg": ["Montserrat"]
-            },
-            "fontSize": {
-                    "body-lg": ["18px", {"lineHeight": "32px", "fontWeight": "400"}],
-                    "body-md": ["16px", {"lineHeight": "28px", "fontWeight": "400"}],
-                    "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
-                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600"}],
-                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
-                    "display-lg": ["72px", {"lineHeight": "84px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .cinematic-overlay {
-            background: linear-gradient(to right, rgba(13, 28, 50, 0.9) 0%, rgba(13, 28, 50, 0.4) 50%, rgba(13, 28, 50, 0) 100%);
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .floating-label {
-            transition: all 0.2s ease-in-out;
-        }
-    </style>
+<script src="js/tailwind-config.js"></script>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
 <!-- Top Navigation Bar -->
 <header class="fixed top-0 w-full z-50 bg-primary/95 dark:bg-primary/95 backdrop-blur-md shadow-md h-20">
-<nav class="max-w-max-container mx-auto flex justify-between items-center px-margin-desktop h-full">
-<div class="font-headline-md text-headline-md font-bold text-on-primary tracking-tighter">
-                <a href="index.html">Régis Quérard Coaching</a>
+<nav class="max-w-max-container mx-auto flex justify-between items-center px-margin-desktop h-full gap-20">
+<div class="font-headline-md text-headline-md font-bold text-on-primary tracking-tighter flex-shrink-0">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="img/logo.png" alt="RQC Logo" class="h-8 w-auto">
+                    <span>Régis Quérard Coaching</span>
+                </a>
             </div>
 <div class="hidden md:flex space-x-6 items-center">
 <a class="font-label-lg text-label-lg uppercase tracking-wider text-secondary border-b-2 border-secondary pb-1" href="index.html">Accueil</a>
@@ -136,17 +34,19 @@
 <!-- Hero Section -->
 <section class="relative h-[90vh] flex items-center overflow-hidden">
 <div class="absolute inset-0 z-0">
-<img alt="Coaching Performance" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida/AP1WRLvg8Ij2fNkGcYK9fKjbLaFRH7X2NKQoeWHBlXi3PoCWX8kEyAzDu1mT5JE7EeTXUV9KsErfDzUw3P6VBkjGxaFFiJsjV18Ecjx7Ba-zC_68jbFGkGUQaqTfQph_N81vjR151MRTnAfXtuy_-_4Q_sUXVGE47N6avBuCO11rP3oPCWnc1B85homVDQBo9d3gBqRYxYxohu1hdXDSBjgCFg7vVjjIwftk69fDGcUvo_qKFqbBrHgO-cC1urI">
+<img alt="L'Ancrage Malouin" class="w-full h-full object-cover object-center" src="img/saint-malo.JPG">
 <div class="absolute inset-0 cinematic-overlay"></div>
 </div>
 <div class="relative z-10 max-w-max-container mx-auto px-margin-desktop w-full text-on-primary">
-<div class="max-w-2xl space-y-stack-md">
+<div class="max-w-3xl space-y-stack-md">
 <span class="inline-block px-4 py-1 bg-secondary/20 border border-secondary text-secondary font-label-lg uppercase tracking-[0.2em]">Excellence &amp; Performance</span>
 <h1 class="font-display-lg text-display-lg leading-[1.1] text-white">
-                        Libérez votre <span class="text-secondary-fixed">Potentiel</span> Élite.
+                        L'ANCRAGE MALOUIN
                     </h1>
 <p class="font-body-lg text-body-lg text-surface-variant max-w-lg">
-                        Accompagnement neuro-cognitif et physique pour athlètes de haut niveau et dirigeants en quête de performance durable.
+                        Inspiré par l'énergie de la Côte d'Émeraude.<br>
+                        Entre la puissance de la mer, la force des marées et la solidité des remparts de Saint-Malo, j'ai construit une vision du coaching fondée sur la résilience, l'engagement et l'adaptation.<br>
+                        Comme un navigateur qui sait composer avec les éléments, je vous accompagne pour développer des bases solides.
                     </p>
 <div class="flex gap-gutter pt-4">
 <a href="expertise.html" class="bg-secondary text-on-primary px-8 py-4 font-label-lg uppercase tracking-widest hover:scale-105 transition-all shadow-xl inline-block text-center">
@@ -165,7 +65,7 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
 <!-- High Level Athletes -->
 <div class="group relative overflow-hidden h-[600px] bg-primary rounded-xl cursor-pointer" onclick="window.location.href='expertise.html'">
-<img alt="Paris 2024 Coaching" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx9EH1-2BjHKujqrniqnUSb8boqYTsEwzLRAKKqmZo2z5UtVo69NUBpon1HtFDv-uW2l5YIU_wb8OpsyaRbUS_2-c-sgxF58CcXSXd9qFDHCCAuPotVjRXcDGbZ5kuGr6mbdMxDet26MW3F93wktiqkvTWcUiGPw-s1u7genPUPc5SJMqBCPUOGT89dcI2ME6Ta2oyWXmDjLOqbl24_UOXNzj-CwAQVFDOf-b5t5vKn-anRbeWdwPL917IUA1YSaN4eRDJrCaoZc-H">
+<img alt="Paris 2024 Coaching" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" src="img/Jeux-Olympiques.JPG">
 <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
 <div class="absolute bottom-0 p-10 space-y-4">
 <h2 class="font-headline-lg text-headline-lg text-white">Sportifs de Haut Niveau</h2>
@@ -178,7 +78,7 @@
 <!-- Executives -->
 <div class="group relative overflow-hidden h-[600px] bg-primary rounded-xl cursor-pointer" onclick="window.location.href='expertise.html'">
 <div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="A sophisticated executive office suite with floor-to-ceiling windows overlooking a modern coastal skyline at dusk. The interior features premium dark wood, leather furniture, and minimalist decor, illuminated by warm ambient lighting. The atmosphere is quiet, authoritative, and focused, reflecting a high-performance corporate environment where strategic decisions are made with calm precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6up5TgYoN1lLPkw7CBV-zKHaJ2CyCBdSeovQsDn2wE_xczf4Bia61PfvKNk9VHBoPc_-3hj4VZeHw9G58eRO6QhaNBA-o5Gvw6xmRyS5apE08tCMTYu5q_XG2El-qMI5zooycHM5u2dTi_6oVteD7McWc91v7YAfZ98t2TRwhko65Lqfom730mreeB4mb-VrxuPmPPAySUufrwLM8zV73W0EwoyDz7_fw025v4_UFsXnRQfcHI0aZwkJ2NRbA5kpU3qlSDSPQ54mL">
+<img class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="Régis en Croatie" src="img/régis croatie.JPG">
 </div>
 <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
 <div class="absolute bottom-0 p-10 space-y-4">
@@ -260,7 +160,7 @@
                 </p>
 <div class="flex flex-col items-center">
 <div class="w-16 h-16 rounded-full bg-outline-variant mb-4 overflow-hidden shadow-lg">
-<img class="w-full h-full object-cover" data-alt="A portrait of a focused professional athlete, a young man with athletic features and a look of quiet determination. He is dressed in high-performance sportswear, standing against a softly blurred coastal background at sunrise. The lighting is golden and warm, highlighting his features and creating a mood of elite accomplishment and serene focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDI7jDlyOVdVOCwHQJ8gJjFBho5IW2F4NPukWoVNMJ6wthR9xYML_ozOtFNezFLftY0gA0gO26IgCvKjOoxt_GYkpma_PjnrYojDHQAecRViZeODJw4P83EZHVE2sreR3_atA1JWBzbodszl_lPI8LnhYQGG03v1UNMa22Z3AtKMqML0xzBMj4y_6EQJlVa3ICDCEUQX7imssoA4091eaghbtA4NJp8zCzL-3US0QvSXqXOHIS9Q52lctJym4Hfk0yuWDtBcjNm1JBw">
+<img class="w-full h-full object-cover" data-alt="Portrait Régis" src="img/portrait.JPG">
 </div>
 <span class="font-label-lg font-bold uppercase tracking-widest">Julien R.</span>
 <span class="font-body-md text-surface-variant">Athlète Olympique - Lancer de disque</span>
@@ -358,19 +258,5 @@
 </div>
 </div>
 </footer>
-<script>
-        // Simple scroll reveal or interactions can go here
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('header');
-            if (window.scrollY > 50) {
-                nav.classList.add('shadow-xl');
-                nav.classList.remove('bg-primary/95');
-                nav.classList.add('bg-primary');
-            } else {
-                nav.classList.remove('shadow-xl');
-                nav.classList.add('bg-primary/95');
-                nav.classList.remove('bg-primary');
-            }
-        });
-    </script>
+<script src="js/navigation.js"></script>
 </body></html>

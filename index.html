@@ -1,298 +1,174 @@
-<!DOCTYPE html><html class="scroll-smooth" lang="fr" style=""><head>
+<!DOCTYPE html><html class="scroll-smooth" lang="fr">
+<head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Régis Quérard Coaching | Performance &amp; Sérénité</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "surface-bright": "#f9f9ff",
-                    "background": "#f9f9ff",
-                    "on-tertiary-fixed": "#191c1d",
-                    "on-surface": "#111c2c",
-                    "secondary-fixed-dim": "#e9c176",
-                    "outline": "#75777e",
-                    "surface-container-lowest": "#ffffff",
-                    "primary-fixed-dim": "#b9c7e4",
-                    "surface-variant": "#d8e3fa",
-                    "surface-dim": "#cfdaf1",
-                    "surface-container-high": "#dee8ff",
-                    "inverse-surface": "#263142",
-                    "on-surface-variant": "#44474d",
-                    "outline-variant": "#c5c6cd",
-                    "inverse-on-surface": "#ebf1ff",
-                    "surface": "#f9f9ff",
-                    "secondary-container": "#fed488",
-                    "on-error": "#ffffff",
-                    "tertiary-fixed": "#e1e3e4",
-                    "on-secondary": "#ffffff",
-                    "primary": "#000000",
-                    "on-secondary-fixed-variant": "#5d4201",
-                    "error-container": "#ffdad6",
-                    "on-tertiary": "#ffffff",
-                    "on-secondary-container": "#785a1a",
-                    "inverse-primary": "#b9c7e4",
-                    "on-primary": "#ffffff",
-                    "surface-container-highest": "#d8e3fa",
-                    "tertiary": "#000000",
-                    "on-tertiary-container": "#828485",
-                    "surface-container-low": "#f0f3ff",
-                    "primary-fixed": "#d6e3ff",
-                    "on-primary-fixed-variant": "#39475f",
-                    "secondary": "#775a19",
-                    "on-secondary-fixed": "#261900",
-                    "on-tertiary-fixed-variant": "#454748",
-                    "on-primary-fixed": "#0d1c32",
-                    "tertiary-container": "#191c1d",
-                    "secondary-fixed": "#ffdea5",
-                    "surface-tint": "#515f78",
-                    "tertiary-fixed-dim": "#c5c7c8",
-                    "on-primary-container": "#76849f",
-                    "on-error-container": "#93000a",
-                    "primary-container": "#0d1c32",
-                    "surface-container": "#e7eeff",
-                    "error": "#ba1a1a",
-                    "on-background": "#111c2c"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
-            },
-            "spacing": {
-                    "stack-lg": "64px",
-                    "stack-sm": "16px",
-                    "margin-desktop": "80px",
-                    "gutter": "32px",
-                    "max-container": "1440px",
-                    "section-padding": "120px",
-                    "stack-md": "32px"
-            },
-            "fontFamily": {
-                    "body-lg": ["Montserrat"],
-                    "body-md": ["Montserrat"],
-                    "headline-lg": ["Montserrat"],
-                    "headline-md": ["Montserrat"],
-                    "label-lg": ["Montserrat"],
-                    "label-md": ["Montserrat"],
-                    "display-lg": ["Montserrat"]
-            },
-            "fontSize": {
-                    "body-lg": ["18px", {"lineHeight": "32px", "fontWeight": "400"}],
-                    "body-md": ["16px", {"lineHeight": "28px", "fontWeight": "400"}],
-                    "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
-                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600"}],
-                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
-                    "display-lg": ["72px", {"lineHeight": "84px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .cinematic-overlay {
-            background: linear-gradient(to right, rgba(13, 28, 50, 0.9) 0%, rgba(13, 28, 50, 0.4) 50%, rgba(13, 28, 50, 0) 100%);
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .floating-label {
-            transition: all 0.2s ease-in-out;
-        }
-    </style>
+<script src="js/tailwind-config.js"></script>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
-<!-- Top Navigation Bar -->
 <header class="fixed top-0 w-full z-50 bg-primary/95 dark:bg-primary/95 backdrop-blur-md shadow-md h-20">
-<nav class="max-w-max-container mx-auto flex justify-between items-center px-margin-desktop h-full">
-<div class="font-headline-md text-headline-md font-bold text-on-primary tracking-tighter">
-                <a href="index.html">Régis Quérard Coaching</a>
-            </div>
+<nav class="max-w-max-container mx-auto flex justify-between items-center px-margin-desktop h-full gap-20">
+<div class="font-headline-md text-headline-md font-bold text-on-primary tracking-tighter flex-shrink-0">
+<a href="index.html" class="flex items-center gap-3">
+<img src="img/logo.png" alt="RQC Logo" class="h-8 w-auto">
+<span>Régis Quérard Coaching</span>
+</a>
+</div>
 <div class="hidden md:flex space-x-6 items-center">
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-secondary border-b-2 border-secondary pb-1" href="index.html">Accueil</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="hypnocoaching.html">Hypnocoaching</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="coaching-sante.html">Coaching santé</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="expertise.html">Expertise</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="parcours.html">Parcours</a>
-<button class="bg-secondary text-on-primary px-6 py-3 font-label-lg rounded hover:scale-105 transition-transform duration-200 active:scale-95 active:opacity-80">
-                    Prendre rendez-vous
-                </button>
+<a href="index.html"></a>
+<a href="hypnocoaching.html"></a>
+<a href="coaching-sante.html"></a>
+<a href="expertise.html"></a>
+<a href="parcours.html"></a>
+<button class="bg-secondary text-on-primary px-6 py-3 font-label-lg rounded hover:scale-105 transition-transform duration-200 active:scale-95 active:opacity-80"></button>
 </div>
 </nav>
 </header>
 <main class="pt-20">
-<!-- Hero Section -->
 <section class="relative h-[90vh] flex items-center overflow-hidden">
 <div class="absolute inset-0 z-0">
-<img alt="Coaching Performance" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida/AP1WRLvg8Ij2fNkGcYK9fKjbLaFRH7X2NKQoeWHBlXi3PoCWX8kEyAzDu1mT5JE7EeTXUV9KsErfDzUw3P6VBkjGxaFFiJsjV18Ecjx7Ba-zC_68jbFGkGUQaqTfQph_N81vjR151MRTnAfXtuy_-_4Q_sUXVGE47N6avBuCO11rP3oPCWnc1B85homVDQBo9d3gBqRYxYxohu1hdXDSBjgCFg7vVjjIwftk69fDGcUvo_qKFqbBrHgO-cC1urI">
+<img alt="L'Ancrage Malouin" class="w-full h-full object-cover object-center" src="img/hero-bg.png">
 <div class="absolute inset-0 cinematic-overlay"></div>
 </div>
 <div class="relative z-10 max-w-max-container mx-auto px-margin-desktop w-full text-on-primary">
-<div class="max-w-2xl space-y-stack-md">
-<span class="inline-block px-4 py-1 bg-secondary/20 border border-secondary text-secondary font-label-lg uppercase tracking-[0.2em]">Excellence &amp; Performance</span>
-<h1 class="font-display-lg text-display-lg leading-[1.1] text-white">
-                        Libérez votre <span class="text-secondary-fixed">Potentiel</span> Élite.
-                    </h1>
-<p class="font-body-lg text-body-lg text-surface-variant max-w-lg">
-                        Accompagnement neuro-cognitif et physique pour athlètes de haut niveau et dirigeants en quête de performance durable.
-                    </p>
+<div class="max-w-3xl space-y-stack-md">
+<span class="inline-block px-4 py-1 bg-secondary/20 border border-secondary text-secondary font-label-lg uppercase tracking-[0.2em]" data-content="hero_tag"></span>
+<h1 class="font-display-lg text-display-lg leading-[1.1] text-white" data-content="hero_title"></h1>
+<p class="font-body-lg text-body-lg text-surface-variant max-w-lg" data-content="hero_description"></p>
 <div class="flex gap-gutter pt-4">
-<a href="expertise.html" class="bg-secondary text-on-primary px-8 py-4 font-label-lg uppercase tracking-widest hover:scale-105 transition-all shadow-xl inline-block text-center">
-                            Découvrir la méthode
-                        </a>
-<a href="parcours.html" class="border-2 border-on-primary text-on-primary px-8 py-4 font-label-lg uppercase tracking-widest hover:bg-on-primary hover:text-primary transition-all inline-block text-center">
-                            Mon parcours
-                        </a>
+<a href="expertise.html" class="bg-secondary text-on-primary px-8 py-4 font-label-lg uppercase tracking-widest hover:scale-105 transition-all shadow-xl inline-block text-center" data-content="hero_cta_method"></a>
+<a href="parcours.html" class="border-2 border-on-primary text-on-primary px-8 py-4 font-label-lg uppercase tracking-widest hover:bg-on-primary hover:text-primary transition-all inline-block text-center" data-content="hero_cta_parcours"></a>
 </div>
 </div>
 </div>
 </section>
-<!-- Profiles Section: Sportifs vs Dirigeants -->
 <section class="py-section-padding bg-surface">
 <div class="max-w-max-container mx-auto px-margin-desktop">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-<!-- High Level Athletes -->
-<div class="group relative overflow-hidden h-[600px] bg-primary rounded-xl cursor-pointer" onclick="window.location.href='expertise.html'">
-<img alt="Paris 2024 Coaching" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx9EH1-2BjHKujqrniqnUSb8boqYTsEwzLRAKKqmZo2z5UtVo69NUBpon1HtFDv-uW2l5YIU_wb8OpsyaRbUS_2-c-sgxF58CcXSXd9qFDHCCAuPotVjRXcDGbZ5kuGr6mbdMxDet26MW3F93wktiqkvTWcUiGPw-s1u7genPUPc5SJMqBCPUOGT89dcI2ME6Ta2oyWXmDjLOqbl24_UOXNzj-CwAQVFDOf-b5t5vKn-anRbeWdwPL917IUA1YSaN4eRDJrCaoZc-H">
+<div class="expertise-card group relative overflow-hidden h-[600px] bg-primary rounded-xl cursor-pointer">
+<img alt="Paris 2024 Coaching" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" src="img/Jeux-Olympiques.JPG">
 <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
 <div class="absolute bottom-0 p-10 space-y-4">
-<h2 class="font-headline-lg text-headline-lg text-white">Sportifs de Haut Niveau</h2>
-<p class="font-body-md text-surface-variant max-w-md">Préparation olympique, gestion du stress et optimisation des préférences motrices pour atteindre les sommets.</p>
+<h2 class="font-headline-lg text-headline-lg text-white" data-content="profiles_athletes_title"></h2>
+<p class="font-body-md text-surface-variant max-w-md" data-content="profiles_athletes_desc"></p>
 <span class="inline-flex items-center text-secondary-fixed font-label-lg uppercase tracking-widest group-hover:translate-x-2 transition-transform">
-                                En savoir plus <span class="material-symbols-outlined ml-2">arrow_forward</span>
+<span data-content="profiles_athletes_cta"></span> <span class="material-symbols-outlined ml-2">arrow_forward</span>
 </span>
 </div>
 </div>
-<!-- Executives -->
-<div class="group relative overflow-hidden h-[600px] bg-primary rounded-xl cursor-pointer" onclick="window.location.href='expertise.html'">
+<div class="expertise-card group relative overflow-hidden h-[600px] bg-primary rounded-xl cursor-pointer">
 <div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="A sophisticated executive office suite with floor-to-ceiling windows overlooking a modern coastal skyline at dusk. The interior features premium dark wood, leather furniture, and minimalist decor, illuminated by warm ambient lighting. The atmosphere is quiet, authoritative, and focused, reflecting a high-performance corporate environment where strategic decisions are made with calm precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6up5TgYoN1lLPkw7CBV-zKHaJ2CyCBdSeovQsDn2wE_xczf4Bia61PfvKNk9VHBoPc_-3hj4VZeHw9G58eRO6QhaNBA-o5Gvw6xmRyS5apE08tCMTYu5q_XG2El-qMI5zooycHM5u2dTi_6oVteD7McWc91v7YAfZ98t2TRwhko65Lqfom730mreeB4mb-VrxuPmPPAySUufrwLM8zV73W0EwoyDz7_fw025v4_UFsXnRQfcHI0aZwkJ2NRbA5kpU3qlSDSPQ54mL">
+<img class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" alt="Régis Quérard" src="img/regis-croatie.jpg">
 </div>
 <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
 <div class="absolute bottom-0 p-10 space-y-4">
-<h2 class="font-headline-lg text-headline-lg text-white">Dirigeants &amp; Leaders</h2>
-<p class="font-body-md text-surface-variant max-w-md">Leadership éclairé, résilience émotionnelle et performance cognitive pour naviguer dans l'incertitude.</p>
+<h2 class="font-headline-lg text-headline-lg text-white" data-content="profiles_leaders_title"></h2>
+<p class="font-body-md text-surface-variant max-w-md" data-content="profiles_leaders_desc"></p>
 <span class="inline-flex items-center text-secondary-fixed font-label-lg uppercase tracking-widest group-hover:translate-x-2 transition-transform">
-                                Optimiser mon leadership <span class="material-symbols-outlined ml-2">arrow_forward</span>
+<span data-content="profiles_leaders_cta"></span> <span class="material-symbols-outlined ml-2">arrow_forward</span>
 </span>
 </div>
 </div>
 </div>
 </div>
 </section>
-<!-- Method Breakdown: Bento Grid -->
 <section class="py-section-padding bg-primary text-on-primary" id="expertise">
 <div class="max-w-max-container mx-auto px-margin-desktop">
 <div class="text-center mb-stack-lg space-y-4">
-<span class="text-secondary font-label-lg uppercase tracking-widest">Une approche holistique</span>
-<h2 class="font-headline-lg text-headline-lg">L'Architecture de la Performance</h2>
+<span class="text-secondary font-label-lg uppercase tracking-widest" data-content="method_tag"></span>
+<h2 class="font-headline-lg text-headline-lg" data-content="method_title"></h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-12 grid-rows-2 gap-6 h-[800px]">
-<!-- Neurotypes -->
-<div class="md:col-span-8 bg-surface-container-lowest/5 rounded-xl p-10 flex flex-col justify-between border border-outline-variant/10 hover:border-secondary transition-colors group cursor-pointer" onclick="window.location.href='expertise.html'">
+<div class="expertise-card md:col-span-8 bg-surface-container-lowest/5 rounded-xl p-10 flex flex-col justify-between border border-outline-variant/10 hover:border-secondary transition-colors group cursor-pointer">
 <div>
 <div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">psychology</span>
+<span class="material-symbols-outlined text-secondary material-symbols-fill">psychology</span>
 </div>
-<h3 class="font-headline-md text-headline-md mb-4">Neurotypes</h3>
-<p class="font-body-md text-surface-variant max-w-xl">Comprendre la signature chimique de votre cerveau pour adapter l'entraînement, la nutrition et la récupération à votre profil biologique unique.</p>
+<h3 class="font-headline-md text-headline-md mb-4" data-content="method_neuro_title"></h3>
+<p class="font-body-md text-surface-variant max-w-xl" data-content="method_neuro_desc"></p>
 </div>
 <div class="flex items-center space-x-4">
-<span class="text-label-md font-label-md text-secondary uppercase">Optimisation Dopaminergique</span>
+<span class="text-label-md font-label-md text-secondary uppercase" data-content="method_neuro_footer"></span>
 <div class="h-px flex-grow bg-outline-variant/20"></div>
 </div>
 </div>
-<!-- Preferences Motrices -->
-<div class="md:col-span-4 bg-surface-container-lowest/5 rounded-xl p-10 flex flex-col justify-between border border-outline-variant/10 hover:border-secondary transition-colors cursor-pointer" onclick="window.location.href='expertise.html'">
+<div class="expertise-card md:col-span-4 bg-surface-container-lowest/5 rounded-xl p-10 flex flex-col justify-between border border-outline-variant/10 hover:border-secondary transition-colors cursor-pointer">
 <div>
 <div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">directions_run</span>
+<span class="material-symbols-outlined text-secondary material-symbols-fill">directions_run</span>
 </div>
-<h3 class="font-headline-md text-headline-md mb-4">Préférences Motrices</h3>
-<p class="font-body-md text-surface-variant">Identifiez vos schémas naturels de mouvement pour prévenir les blessures et libérer votre puissance instinctive.</p>
+<h3 class="font-headline-md text-headline-md mb-4" data-content="method_pref_title"></h3>
+<p class="font-body-md text-surface-variant" data-content="method_pref_desc"></p>
 </div>
 </div>
-<!-- Posturologie -->
-<div class="md:col-span-4 bg-surface-container-lowest/5 rounded-xl p-10 flex flex-col justify-between border border-outline-variant/10 hover:border-secondary transition-colors cursor-pointer" onclick="window.location.href='expertise.html'">
+<div class="expertise-card md:col-span-4 bg-surface-container-lowest/5 rounded-xl p-10 flex flex-col justify-between border border-outline-variant/10 hover:border-secondary transition-colors cursor-pointer">
 <div>
 <div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">accessibility_new</span>
+<span class="material-symbols-outlined text-secondary material-symbols-fill">accessibility_new</span>
 </div>
-<h3 class="font-headline-md text-headline-md mb-4">Posturologie</h3>
-<p class="font-body-md text-surface-variant">L'équilibre des capteurs sensoriels pour une stabilité parfaite et une efficacité gestuelle maximale.</p>
+<h3 class="font-headline-md text-headline-md mb-4" data-content="method_posturo_title"></h3>
+<p class="font-body-md text-surface-variant" data-content="method_posturo_desc"></p>
 </div>
 </div>
-<!-- Mental Performance -->
 <div class="md:col-span-8 bg-secondary rounded-xl p-10 flex flex-col justify-between text-primary relative overflow-hidden group">
 <div class="relative z-10">
-<h3 class="font-headline-md text-headline-md mb-4">Préparation Mentale</h3>
-<p class="font-body-md opacity-90 max-w-xl">Flow state, imagerie motrice et techniques de respiration pour garder le contrôle quand la pression est à son comble.</p>
+<h3 class="font-headline-md text-headline-md mb-4" data-content="method_mental_title"></h3>
+<p class="font-body-md opacity-90 max-w-xl" data-content="method_mental_desc"></p>
 </div>
 <div class="relative z-10 flex justify-end">
-<a href="expertise.html" class="bg-primary text-on-primary px-6 py-3 font-label-lg rounded uppercase tracking-wider hover:bg-primary-container transition-colors inline-block">
-                                Consulter la fiche technique
-                            </a>
+<a href="expertise.html" class="bg-primary text-on-primary px-6 py-3 font-label-lg rounded uppercase tracking-wider hover:bg-primary-container transition-colors inline-block" data-content="method_mental_cta"></a>
 </div>
-<!-- Subtle abstract decoration -->
 <div class="absolute -right-20 -bottom-20 w-64 h-64 border-8 border-primary/10 rounded-full group-hover:scale-110 transition-transform duration-700"></div>
 </div>
 </div>
 </div>
 </section>
-<!-- Testimonial Section (Minimalist) -->
 <section class="py-section-padding bg-surface-bright relative" id="temoignages">
 <div class="max-w-max-container mx-auto px-margin-desktop text-center">
 <span class="material-symbols-outlined text-secondary text-5xl mb-6">format_quote</span>
-<p class="font-headline-md text-headline-md italic max-w-4xl mx-auto mb-10 leading-relaxed">
-                    "Grâce à l'approche de Régis sur les préférences motrices, j'ai non seulement optimisé mon geste technique mais j'ai surtout retrouvé une fluidité que je pensais perdue. C'est l'atout maître de ma préparation pour Paris."
-                </p>
+<p class="font-headline-md text-headline-md italic max-w-4xl mx-auto mb-10 leading-relaxed" data-content="testimonial_quote"></p>
 <div class="flex flex-col items-center">
 <div class="w-16 h-16 rounded-full bg-outline-variant mb-4 overflow-hidden shadow-lg">
-<img class="w-full h-full object-cover" data-alt="A portrait of a focused professional athlete, a young man with athletic features and a look of quiet determination. He is dressed in high-performance sportswear, standing against a softly blurred coastal background at sunrise. The lighting is golden and warm, highlighting his features and creating a mood of elite accomplishment and serene focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDI7jDlyOVdVOCwHQJ8gJjFBho5IW2F4NPukWoVNMJ6wthR9xYML_ozOtFNezFLftY0gA0gO26IgCvKjOoxt_GYkpma_PjnrYojDHQAecRViZeODJw4P83EZHVE2sreR3_atA1JWBzbodszl_lPI8LnhYQGG03v1UNMa22Z3AtKMqML0xzBMj4y_6EQJlVa3ICDCEUQX7imssoA4091eaghbtA4NJp8zCzL-3US0QvSXqXOHIS9Q52lctJym4Hfk0yuWDtBcjNm1JBw">
+<img class="w-full h-full object-cover" alt="Julien R." src="img/yoga-ettire.jpg">
 </div>
-<span class="font-label-lg font-bold uppercase tracking-widest">Julien R.</span>
-<span class="font-body-md text-surface-variant">Athlète Olympique - Lancer de disque</span>
+<span class="font-label-lg font-bold uppercase tracking-widest" data-content="testimonial_author"></span>
+<span class="font-body-md text-surface-variant" data-content="testimonial_role"></span>
 </div>
 </div>
 </section>
-<!-- Contact Section -->
 <section class="py-section-padding bg-surface" id="contact">
 <div class="max-w-max-container mx-auto px-margin-desktop">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
 <div class="space-y-stack-md">
-<h2 class="font-headline-lg text-headline-lg">Prêt à franchir le prochain palier ?</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">Basé à Saint-Malo et Dinard, j'interviens dans toute la France pour des séances de coaching intensif ou du consulting stratégique.</p>
-<div class="space-y-6 pt-6">
+<h2 class="font-headline-lg text-headline-lg"></h2>
+<p class="font-body-lg text-on-surface-variant"></p>
+<div class="space-y-stack-sm pt-6">
 <div class="flex items-center space-x-4">
 <span class="material-symbols-outlined text-secondary">location_on</span>
-<span class="font-body-md">Saint-Malo &amp; Dinard, Côte d'Émeraude</span>
+<span class="font-body-md"></span>
 </div>
 <div class="flex items-center space-x-4">
 <span class="material-symbols-outlined text-secondary">mail</span>
-<span class="font-body-md">contact@regisquerard.com</span>
-</div><div class="flex items-center space-x-4"><span class="material-symbols-outlined text-secondary">brand_awareness</span><a href="https://www.instagram.com/regisquerardcoaching/" target="_blank" class="font-body-md hover:text-secondary transition-colors">@RégisQuérardCoaching</a></div>
+<span class="font-body-md"></span>
+</div>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-secondary">brand_awareness</span>
+<a href="https://www.instagram.com/regisquerardcoaching/" target="_blank" class="font-body-md hover:text-secondary transition-colors">@RégisQuérardCoaching</a>
+</div>
 </div>
 </div>
 <form class="space-y-6 bg-white p-10 rounded shadow-2xl">
 <div class="grid grid-cols-2 gap-6">
 <div class="flex flex-col space-y-2">
-<label class="font-label-md uppercase tracking-wider text-outline">Nom</label>
+<label class="font-label-md uppercase tracking-wider text-outline"></label>
 <input class="border-b border-outline-variant focus:border-secondary outline-none py-2 transition-colors" type="text">
 </div>
 <div class="flex flex-col space-y-2">
-<label class="font-label-md uppercase tracking-wider text-outline">Profil</label>
+<label class="font-label-md uppercase tracking-wider text-outline"></label>
 <select class="border-b border-outline-variant focus:border-secondary outline-none py-2 bg-transparent transition-colors">
 <option>Sportif</option>
 <option>Dirigeant</option>
@@ -301,56 +177,54 @@
 </div>
 </div>
 <div class="flex flex-col space-y-2">
-<label class="font-label-md uppercase tracking-wider text-outline">Email</label>
+<label class="font-label-md uppercase tracking-wider text-outline"></label>
 <input class="border-b border-outline-variant focus:border-secondary outline-none py-2 transition-colors" type="email">
 </div>
 <div class="flex flex-col space-y-2">
-<label class="font-label-md uppercase tracking-wider text-outline">Message</label>
+<label class="font-label-md uppercase tracking-wider text-outline"></label>
 <textarea class="border-b border-outline-variant focus:border-secondary outline-none py-2 transition-colors resize-none" rows="4"></textarea>
 </div>
 <button class="w-full bg-primary text-on-primary py-4 font-label-lg uppercase tracking-widest hover:bg-secondary transition-colors flex items-center justify-center group">
-                            Envoyer la demande
-                            <span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">send</span>
+<span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">send</span>
 </button>
 </form>
 </div>
 </div>
 </section>
 </main>
-<!-- Footer -->
 <footer class="bg-primary text-on-primary py-section-padding border-t border-outline-variant/20">
 <div class="max-w-max-container mx-auto px-margin-desktop">
 <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
 <div class="col-span-1 md:col-span-1">
 <h3 class="font-headline-md text-headline-md text-secondary mb-8">RQC</h3>
-<p class="font-body-md text-surface-variant">Expertise en performance humaine, neuro-cognition et motricité.</p>
+<p class="font-body-md text-surface-variant"></p>
 </div>
 <div>
-<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest">Localités</h4>
+<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest"></h4>
 <ul class="space-y-4">
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> Saint-Malo</a></li>
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> Dinard</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> Saint-Malo</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> Dinard</a></li>
 </ul>
 </div>
 <div>
-<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest">Navigation</h4>
+<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest"></h4>
 <ul class="space-y-4">
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="expertise.html">Expertise</a></li>
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="parcours.html">Parcours</a></li>
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#temoignages">Témoignages</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="expertise.html">Expertise</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="parcours.html">Parcours</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#temoignages">Témoignages</a></li>
 </ul>
 </div>
 <div>
-<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest">Légal</h4>
+<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest"></h4>
 <ul class="space-y-4">
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Mentions Légales</a></li>
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Confidentialité</a></li>
-<li class=""><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Cookies</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Mentions Légales</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Confidentialité</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Cookies</a></li>
 </ul>
 </div>
 </div>
 <div class="border-t border-outline-variant/10 pt-10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-<p class="font-body-md text-surface-variant/60">© 2024 Régis Quérard Coaching. Tous droits réservés.</p>
+<p class="font-body-md text-surface-variant/60"></p>
 <div class="flex space-x-6"><a class="text-surface-variant hover:text-secondary transition-colors" href="https://www.instagram.com/regisquerardcoaching/" target="_blank" title="Instagram"><svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a>
 <a class="text-surface-variant hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
 <a class="text-surface-variant hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined">language</span></a>
@@ -358,19 +232,6 @@
 </div>
 </div>
 </footer>
-<script>
-        // Simple scroll reveal or interactions can go here
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('header');
-            if (window.scrollY > 50) {
-                nav.classList.add('shadow-xl');
-                nav.classList.remove('bg-primary/95');
-                nav.classList.add('bg-primary');
-            } else {
-                nav.classList.remove('shadow-xl');
-                nav.classList.add('bg-primary/95');
-                nav.classList.remove('bg-primary');
-            }
-        });
-    </script>
+<script src="js/navigation.js"></script>
+<script src="js/content-loader.js"></script>
 </body></html>

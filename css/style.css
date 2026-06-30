@@ -12,3 +12,6 @@
 .floating-label {
     transition: all 0.2s ease-in-out;
 }
+.material-symbols-fill {
+    font-variation-settings: 'FILL' 1;
+}

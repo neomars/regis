@@ -1,122 +1,30 @@
-<!DOCTYPE html><html class="scroll-smooth" lang="fr" style=""><head>
+<!DOCTYPE html><html class="scroll-smooth" lang="fr">
+<head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Mon Parcours | Régis Quérard Coaching</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "surface-bright": "#f9f9ff",
-                    "background": "#f9f9ff",
-                    "on-tertiary-fixed": "#191c1d",
-                    "on-surface": "#111c2c",
-                    "secondary-fixed-dim": "#e9c176",
-                    "outline": "#75777e",
-                    "surface-container-lowest": "#ffffff",
-                    "primary-fixed-dim": "#b9c7e4",
-                    "surface-variant": "#d8e3fa",
-                    "surface-dim": "#cfdaf1",
-                    "surface-container-high": "#dee8ff",
-                    "inverse-surface": "#263142",
-                    "on-surface-variant": "#44474d",
-                    "outline-variant": "#c5c6cd",
-                    "inverse-on-surface": "#ebf1ff",
-                    "surface": "#f9f9ff",
-                    "secondary-container": "#fed488",
-                    "on-error": "#ffffff",
-                    "tertiary-fixed": "#e1e3e4",
-                    "on-secondary": "#ffffff",
-                    "primary": "#000000",
-                    "on-secondary-fixed-variant": "#5d4201",
-                    "error-container": "#ffdad6",
-                    "on-tertiary": "#ffffff",
-                    "on-secondary-container": "#785a1a",
-                    "inverse-primary": "#b9c7e4",
-                    "on-primary": "#ffffff",
-                    "surface-container-highest": "#d8e3fa",
-                    "tertiary": "#000000",
-                    "on-tertiary-container": "#828485",
-                    "surface-container-low": "#f0f3ff",
-                    "primary-fixed": "#d6e3ff",
-                    "on-primary-fixed-variant": "#39475f",
-                    "secondary": "#775a19",
-                    "on-secondary-fixed": "#261900",
-                    "on-tertiary-fixed-variant": "#454748",
-                    "on-primary-fixed": "#0d1c32",
-                    "tertiary-container": "#191c1d",
-                    "secondary-fixed": "#ffdea5",
-                    "surface-tint": "#515f78",
-                    "tertiary-fixed-dim": "#c5c7c8",
-                    "on-primary-container": "#76849f",
-                    "on-error-container": "#93000a",
-                    "primary-container": "#0d1c32",
-                    "surface-container": "#e7eeff",
-                    "error": "#ba1a1a",
-                    "on-background": "#111c2c"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
-            },
-            "spacing": {
-                    "stack-lg": "64px",
-                    "stack-sm": "16px",
-                    "margin-desktop": "80px",
-                    "gutter": "32px",
-                    "max-container": "1440px",
-                    "section-padding": "120px",
-                    "stack-md": "32px"
-            },
-            "fontFamily": {
-                    "body-lg": ["Montserrat"],
-                    "body-md": ["Montserrat"],
-                    "headline-lg": ["Montserrat"],
-                    "headline-md": ["Montserrat"],
-                    "label-lg": ["Montserrat"],
-                    "label-md": ["Montserrat"],
-                    "display-lg": ["Montserrat"]
-            },
-            "fontSize": {
-                    "body-lg": ["18px", {"lineHeight": "32px", "fontWeight": "400"}],
-                    "body-md": ["16px", {"lineHeight": "28px", "fontWeight": "400"}],
-                    "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
-                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600"}],
-                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
-                    "display-lg": ["72px", {"lineHeight": "84px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-    </style>
+<script src="js/tailwind-config.js"></script>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
 <header class="fixed top-0 w-full z-50 bg-primary/95 backdrop-blur-md shadow-md h-20">
-<nav class="max-w-max-container mx-auto flex justify-between items-center px-margin-desktop h-full">
-<div class="font-headline-md text-headline-md font-bold text-on-primary tracking-tighter">
-                <a href="index.html">Régis Quérard Coaching</a>
-            </div>
+<nav class="max-w-max-container mx-auto flex justify-between items-center px-margin-desktop h-full gap-20">
+<div class="font-headline-md text-headline-md font-bold text-on-primary tracking-tighter flex-shrink-0">
+<a href="index.html" class="flex items-center gap-3">
+<img src="img/logo.png" alt="RQC Logo" class="h-8 w-auto">
+<span></span>
+</a>
+</div>
 <div class="hidden md:flex space-x-6 items-center">
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="index.html">Accueil</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="hypnocoaching.html">Hypnocoaching</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="coaching-sante.html">Coaching santé</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-primary hover:text-secondary transition-colors" href="expertise.html">Expertise</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-secondary border-b-2 border-secondary pb-1" href="parcours.html">Parcours</a>
-<button class="bg-secondary text-on-primary px-6 py-3 font-label-lg rounded hover:scale-105 transition-transform duration-200 active:scale-95 active:opacity-80">
-                    Prendre rendez-vous
-                </button>
+<a href="index.html"></a>
+<a href="hypnocoaching.html"></a>
+<a href="coaching-sante.html"></a>
+<a href="expertise.html"></a>
+<a href="parcours.html"></a>
+<button class="bg-secondary text-on-primary px-6 py-3 font-label-lg rounded hover:scale-105 transition-transform duration-200 active:scale-95 active:opacity-80"></button>
 </div>
 </nav>
 </header>
@@ -125,40 +33,26 @@
 <div class="max-w-max-container mx-auto px-margin-desktop">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
 <div>
-<img alt="Régis Quérard" class="rounded-xl shadow-2xl" src="https://lh3.googleusercontent.com/aida/AP1WRLvg8Ij2fNkGcYK9fKjbLaFRH7X2NKQoeWHBlXi3PoCWX8kEyAzDu1mT5JE7EeTXUV9KsErfDzUw3P6VBkjGxaFFiJsjV18Ecjx7Ba-zC_68jbFGkGUQaqTfQph_N81vjR151MRTnAfXtuy_-_4Q_sUXVGE47N6avBuCO11rP3oPCWnc1B85homVDQBo9d3gBqRYxYxohu1hdXDSBjgCFg7vVjjIwftk69fDGcUvo_qKFqbBrHgO-cC1urI">
+<img alt="Régis Quérard" class="rounded-xl shadow-2xl" src="img/portrait.JPG">
 </div>
 <div class="space-y-6">
-<span class="text-secondary font-label-lg uppercase tracking-widest">Ma Vision</span>
-<h1 class="font-display-lg text-display-lg">Accompagner l'Excellence</h1>
-<p class="font-body-lg text-on-surface-variant">Passionné par le potentiel humain, j'ai consacré ma carrière à comprendre comment optimiser la performance sans sacrifier la santé.</p>
-<p class="font-body-md text-on-surface-variant">Mon parcours m'a mené à travailler avec des athlètes olympiques, des commandos de marine et des dirigeants de grandes entreprises, m'apportant une vision holistique de la performance sous pression.</p>
+<span class="text-secondary font-label-lg uppercase tracking-widest" data-content="tag"></span>
+<h1 class="font-display-lg text-display-lg" data-content="title"></h1>
+<p class="font-body-lg text-on-surface-variant" data-content="vision_p1"></p>
+<p class="font-body-md text-on-surface-variant" data-content="vision_p2"></p>
 </div>
 </div>
 </div>
 </section>
 <section class="py-section-padding bg-primary text-on-primary">
 <div class="max-w-max-container mx-auto px-margin-desktop">
-<h2 class="font-headline-lg text-headline-lg mb-12 text-center">Dates Clés</h2>
-<div class="max-w-3xl mx-auto space-y-12">
+<h2 class="font-headline-lg text-headline-lg mb-12 text-center" data-content="timeline_title"></h2>
+<div class="max-w-3xl mx-auto space-y-12" data-content-list="timeline">
 <div class="flex gap-8 items-start">
-<span class="font-headline-md text-secondary">2024</span>
+<span class="font-headline-md text-secondary"></span>
 <div>
-<h3 class="font-headline-md text-headline-md mb-2">Préparation Olympique</h3>
-<p class="font-body-md text-surface-variant">Accompagnement d'athlètes pour les Jeux de Paris 2024 en utilisant les préférences motrices et le profilage neuro-chimique.</p>
-</div>
-</div>
-<div class="flex gap-8 items-start">
-<span class="font-headline-md text-secondary">2020</span>
-<div>
-<h3 class="font-headline-md text-headline-md mb-2">Expertise Neuro-Cognitive</h3>
-<p class="font-body-md text-surface-variant">Certification avancée en Neurotypes et Posturologie pour affiner l'approche personnalisée du coaching.</p>
-</div>
-</div>
-<div class="flex gap-8 items-start">
-<span class="font-headline-md text-secondary">2015</span>
-<div>
-<h3 class="font-headline-md text-headline-md mb-2">Fondation de RQC</h3>
-<p class="font-body-md text-surface-variant">Lancement de la structure dédiée à l'accompagnement des sportifs de haut niveau et des dirigeants à Saint-Malo.</p>
+<h3 class="font-headline-md text-headline-md mb-2"></h3>
+<p class="font-body-md text-surface-variant"></p>
 </div>
 </div>
 </div>
@@ -170,34 +64,31 @@
 <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
 <div class="col-span-1 md:col-span-1">
 <h3 class="font-headline-md text-headline-md text-secondary mb-8">RQC</h3>
-<p class="font-body-md text-surface-variant">Expertise en performance humaine, neuro-cognition et motricité.</p>
+<p class="font-body-md text-surface-variant" data-content="tagline"></p>
 </div>
 <div>
-<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest">Localités</h4>
-<ul class="space-y-4">
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> Saint-Malo</a></li>
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> Dinard</a></li>
+<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest" data-content="localities_title"></h4>
+<ul class="space-y-4" data-content-list="localities">
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all flex items-center" href="#"><span class="material-symbols-outlined text-sm mr-2">chevron_right</span> </a></li>
 </ul>
 </div>
 <div>
-<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest">Navigation</h4>
+<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest" data-content="nav_title"></h4>
 <ul class="space-y-4">
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="expertise.html">Expertise</a></li>
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="parcours.html">Parcours</a></li>
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="index.html#temoignages">Témoignages</a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="expertise.html" data-content="nav_items.expertise"></a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="parcours.html" data-content="nav_items.parcours"></a></li>
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#temoignages" data-content="nav_items.temoignages"></a></li>
 </ul>
 </div>
 <div>
-<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest">Légal</h4>
-<ul class="space-y-4">
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Mentions Légales</a></li>
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Confidentialité</a></li>
-<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#">Cookies</a></li>
+<h4 class="font-label-lg text-secondary uppercase mb-6 tracking-widest" data-content="legal_title"></h4>
+<ul class="space-y-4" data-content-list="legal_items">
+<li><a class="font-body-md text-surface-variant hover:text-secondary transition-all" href="#"></a></li>
 </ul>
 </div>
 </div>
 <div class="border-t border-outline-variant/10 pt-10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-<p class="font-body-md text-surface-variant/60">© 2024 Régis Quérard Coaching. Tous droits réservés.</p>
+<p class="font-body-md text-surface-variant/60" data-content="copyright"></p>
 <div class="flex space-x-6"><a class="text-surface-variant hover:text-secondary transition-colors" href="https://www.instagram.com/regisquerardcoaching/" target="_blank" title="Instagram"><svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a>
 <a class="text-surface-variant hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
 <a class="text-surface-variant hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined">language</span></a>
@@ -205,18 +96,7 @@
 </div>
 </div>
 </footer>
-<script>
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('header');
-            if (window.scrollY > 50) {
-                nav.classList.add('shadow-xl');
-                nav.classList.remove('bg-primary/95');
-                nav.classList.add('bg-primary');
-            } else {
-                nav.classList.remove('shadow-xl');
-                nav.classList.add('bg-primary/95');
-                nav.classList.remove('bg-primary');
-            }
-        });
-    </script>
+<script src="js/navigation.js"></script>
+<script src="js/content-data.js"></script>
+<script src="js/content-loader.js"></script>
 </body></html>

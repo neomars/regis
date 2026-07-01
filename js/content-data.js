@@ -37,7 +37,7 @@ window.SITE_CONTENT = {
     }
   },
   "index": {
-    "hero_tag": "Excellence & Performance",
+    "hero_tag": "Excellence et Performance",
     "hero_title": "L'ANCRAGE MALOUIN",
     "hero_description": "Inspiré par l'énergie de la Côte d'Émeraude.<br>Entre la puissance de la mer, la force des marées et la solidité des remparts de Saint-Malo, j'ai construit une vision du coaching fondée sur la résilience, l'engagement et l'adaptation.<br>Comme un navigateur qui sait composer avec les éléments, je vous accompagne pour développer des bases solides.",
     "hero_cta_method": "Découvrir la méthode",

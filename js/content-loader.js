@@ -17,11 +17,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to populate elements by data-content attribute
     const populateByDataContent = (container, contentData) => {
-        container.querySelectorAll('[data-content]').forEach(el => {
+        container.querySelectorAll('[data-content], [data-attr]').forEach(el => {
             const key = el.getAttribute('data-content');
-            const value = getNestedProperty(contentData, key);
-            if (value !== undefined) {
-                el.innerHTML = value;
+            if (key) {
+                const value = getNestedProperty(contentData, key);
+                if (value !== undefined) {
+                    el.innerHTML = value;
+                }
+            }
+
+            const attrRaw = el.getAttribute('data-attr');
+            if (attrRaw) {
+                const [attr, contentKey] = attrRaw.split(':');
+                const attrValue = getNestedProperty(contentData, contentKey);
+                if (attrValue !== undefined) {
+                    if (attr === 'href') {
+                        if (contentKey === 'phone') el.href = `tel:${attrValue.replace(/\./g, '')}`;
+                        else if (contentKey === 'email') el.href = `mailto:${attrValue}`;
+                        else el.href = attrValue;
+                    } else {
+                        el.setAttribute(attr, attrValue);
+                    }
+                }
             }
         });
     };
@@ -67,7 +84,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                 link.innerText = item;
                                 if (icon) link.prepend(icon);
                             } else {
-                                clone.innerText = item;
+                                const textTarget = clone.querySelector('span:last-child') || clone;
+                                textTarget.innerText = item;
                             }
                             container.appendChild(clone);
                         });

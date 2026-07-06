@@ -12,22 +12,25 @@ window.SITE_CONTENT = {
     "footer": {
       "tagline": "Expertise en performance humaine, neuro-cognition et motricité.",
       "localities_title": "Localités",
-      "localities": ["Saint-Malo", "Dinard"],
+      "localities": ["Saint Malo", "Dinard", "Côte d’Emeraude"],
       "nav_title": "Navigation",
       "nav_items": {
           "expertise": "Expertise",
           "parcours": "Parcours",
           "temoignages": "Témoignages"
       },
-      "legal_title": "Légal",
-      "legal_items": ["Mentions Légales", "Confidentialité", "Cookies"],
+      "contact_title": "Contact",
+      "phone": "06.98.39.65.82",
+      "email": "regisqueradcoaching@gmail.com",
+      "instagram_link": "https://www.instagram.com/regisquerardcoaching",
+      "linkedin_link": "https://www.linkedin.com/in/r%C3%A9gis-qu%C3%A9rard-078393a6/",
       "copyright": "© 2024 Régis Quérard Coaching. Tous droits réservés."
     },
     "contact": {
       "title": "Prêt à franchir le prochain palier ?",
       "description": "Basé à Saint-Malo et Dinard, j'interviens dans toute la France pour des séances de coaching intensif ou du consulting stratégique.",
       "location": "Saint-Malo & Dinard, Côte d'Émeraude",
-      "email": "contact@regisquerard.com",
+      "email": "regisqueradcoaching@gmail.com",
       "form_name_label": "Nom",
       "form_profile_label": "Profil",
       "form_profiles": ["Sportif", "Dirigeant", "Autre"],
